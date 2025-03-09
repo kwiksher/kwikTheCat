@@ -1,0 +1,395 @@
+﻿{"frames": [
+
+{
+	"filename": "Girl Bicycle instance 10000",
+	"frame": {"x":0,"y":0,"w":519,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10001",
+	"frame": {"x":519,"y":0,"w":518,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10002",
+	"frame": {"x":1037,"y":0,"w":517,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10003",
+	"frame": {"x":1554,"y":0,"w":515,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10004",
+	"frame": {"x":2069,"y":0,"w":519,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10005",
+	"frame": {"x":2588,"y":0,"w":523,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10006",
+	"frame": {"x":3111,"y":0,"w":526,"h":401},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":12,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10007",
+	"frame": {"x":0,"y":401,"w":529,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10008",
+	"frame": {"x":529,"y":401,"w":534,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10009",
+	"frame": {"x":1063,"y":401,"w":537,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10010",
+	"frame": {"x":1600,"y":401,"w":540,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10011",
+	"frame": {"x":2140,"y":401,"w":543,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10012",
+	"frame": {"x":2683,"y":401,"w":545,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10013",
+	"frame": {"x":3228,"y":401,"w":546,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10014",
+	"frame": {"x":0,"y":806,"w":546,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10015",
+	"frame": {"x":546,"y":806,"w":544,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10016",
+	"frame": {"x":1090,"y":806,"w":541,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10017",
+	"frame": {"x":1631,"y":806,"w":539,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10018",
+	"frame": {"x":2170,"y":806,"w":537,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10019",
+	"frame": {"x":2707,"y":806,"w":534,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10020",
+	"frame": {"x":3241,"y":806,"w":529,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10021",
+	"frame": {"x":0,"y":1211,"w":523,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":11,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10022",
+	"frame": {"x":523,"y":1211,"w":521,"h":401},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":12,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10023",
+	"frame": {"x":1044,"y":1211,"w":520,"h":401},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":28,"y":12,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10024",
+	"frame": {"x":1564,"y":1211,"w":534,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10025",
+	"frame": {"x":2098,"y":1211,"w":548,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10026",
+	"frame": {"x":2646,"y":1211,"w":516,"h":399},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":14,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10027",
+	"frame": {"x":3162,"y":1211,"w":517,"h":399},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":14,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10028",
+	"frame": {"x":0,"y":1613,"w":519,"h":399},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":14,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10029",
+	"frame": {"x":519,"y":1613,"w":521,"h":400},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":13,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10030",
+	"frame": {"x":1040,"y":1613,"w":526,"h":401},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":12,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10031",
+	"frame": {"x":1566,"y":1613,"w":530,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":11,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10032",
+	"frame": {"x":2096,"y":1613,"w":533,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10033",
+	"frame": {"x":2629,"y":1613,"w":537,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10034",
+	"frame": {"x":3166,"y":1613,"w":540,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10035",
+	"frame": {"x":0,"y":2017,"w":541,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10036",
+	"frame": {"x":541,"y":2017,"w":542,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10037",
+	"frame": {"x":1083,"y":2017,"w":542,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10038",
+	"frame": {"x":1625,"y":2017,"w":544,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10039",
+	"frame": {"x":2169,"y":2017,"w":545,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10040",
+	"frame": {"x":2714,"y":2017,"w":545,"h":405},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":8,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10041",
+	"frame": {"x":3259,"y":2017,"w":544,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10042",
+	"frame": {"x":0,"y":2422,"w":541,"h":404},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":9,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10043",
+	"frame": {"x":541,"y":2422,"w":538,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10044",
+	"frame": {"x":1079,"y":2422,"w":534,"h":403},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":10,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10045",
+	"frame": {"x":1613,"y":2422,"w":530,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":11,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10046",
+	"frame": {"x":2143,"y":2422,"w":526,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":22,"y":11,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}
+,{
+	"filename": "Girl Bicycle instance 10047",
+	"frame": {"x":2669,"y":2422,"w":521,"h":401},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":12,"w":548,"h":413},
+	"sourceSize": {"w":548,"h":413}
+}],
+"meta": {
+	"app": "Adobe Animate",
+	"version": "24.0.3.19",
+	"image": "Untitled-1.png",
+	"format": "RGBA8888",
+	"size": {"w":4096,"h":4096},
+	"scale": "1"
+}
+}

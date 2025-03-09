@@ -1,0 +1,1 @@
+{"type":"","name":"starfish","properties":{"type":"","over":"NIL","isActive":"true","target":"starfish","mask":"NIL","eventType":"tap","btaps":1},"layer":"starfish","actions":{"onTap":"previousPage"},"class":"button"}

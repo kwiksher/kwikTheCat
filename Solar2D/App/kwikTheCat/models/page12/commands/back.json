@@ -1,0 +1,1 @@
+{"name":"back","actions":[{"command":".page.gotoPage","params":{"duration":0,"pageName":"PREVIOUS","delay":0,"effect":"crossFade"}}]}

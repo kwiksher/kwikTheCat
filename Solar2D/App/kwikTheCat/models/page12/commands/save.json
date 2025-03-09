@@ -1,0 +1,1 @@
+{"name":"save","actions":[{"command":"screenshot.take","params":{"shutter":"true"}}]}

@@ -1,0 +1,1 @@
+{"properties":{"type":"tap","target":"color7","mask":"NIL","over":"NIL","btaps":1},"layer":"color7","actions":{"onTap":"tapHandler"},"name":"button"}

@@ -1,0 +1,1 @@
+{"name":"nextPage","actions":[{"command":"page.gotoPage","params":{"duration":0,"pageName":"NEXT","delay":0,"effect":"fromRight"}}]}

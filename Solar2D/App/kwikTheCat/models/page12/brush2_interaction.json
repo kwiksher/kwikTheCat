@@ -1,0 +1,1 @@
+{"class":"button","properties":{"btaps":1,"target":"brush2","mask":"NIL","over":"NIL","type":"tap"},"actions":{"onTap":"middleBrush"},"layer":"brush2"}

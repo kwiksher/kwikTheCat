@@ -1,0 +1,1 @@
+{"name":"brushRed","actions":[{"command":"canvas.brush","params":{"color":"1,0,0,1","size":"10"}}]}

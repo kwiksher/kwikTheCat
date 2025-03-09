@@ -1,0 +1,1 @@
+{"layer":"button","properties":{"btaps":2,"target":"color8","mask":"NIL","over":"NIL","type":"tap"},"actions":{"onTap":"tapHandler2"},"class":"button"}

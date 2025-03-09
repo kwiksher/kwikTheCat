@@ -1,0 +1,1 @@
+{"class":"button","properties":{"type":"tap","isActive":"true","target":"brush3","mask":"NIL","over":"NIL","btaps":1},"actions":{"onTap":"largeBrush"},"layer":"brush3"}

@@ -1,0 +1,24 @@
+{
+  "layer": "fish",
+  "properties": {
+    "constrainAngle": "90",
+    "flipInitialDirection": "right",
+    "dropAreaMargin": 10,
+    "backToOrigin": "true",
+    "isActive": "true",
+    "isDrop": "true",
+    "isFocus": "true",
+    "isGroup": "false",
+    "rockingEnable": 1,
+    "target": "fish",
+    "boundaries": "0,1920,0,1080",
+    "isFlip": "true",
+    "dropArea": "baloon"
+  },
+  "actions": {
+    "onReleased": "eventThree",
+    "onDropped": "eventTwo",
+    "onMoved": "eventOne"
+  },
+  "class": "drag"
+}

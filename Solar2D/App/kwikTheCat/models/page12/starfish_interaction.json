@@ -1,0 +1,1 @@
+{"class":"button","properties":{"type":"tap","isActive":"true","target":"starfish","mask":"NIL","over":"NIL","btaps":1},"actions":{"onTap":"redo"},"layer":"starfish"}

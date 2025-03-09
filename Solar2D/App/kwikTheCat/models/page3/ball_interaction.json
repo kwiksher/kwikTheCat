@@ -1,0 +1,1 @@
+{"layer":"ball","properties":{"type":"tap","isActive":"true","target":"ball","mask":"NIL","over":"ball_over","btaps":2},"actions":{"onTap":"eventOne"},"class":"button"}

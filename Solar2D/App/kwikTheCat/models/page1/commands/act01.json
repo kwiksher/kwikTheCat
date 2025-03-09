@@ -1,0 +1,19 @@
+{
+  "name":"act01",
+"actions":[
+  {
+    "command": "button.onOff",
+    "params": {
+      "enable": "true",
+      "toggle": "true",
+      "target": "gotoBtn"
+    }
+  },
+  {
+    "command": "animation.pause",
+    "params": {
+      "target": "title"
+    }
+  }
+]
+}

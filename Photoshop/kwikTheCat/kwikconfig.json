@@ -1,0 +1,68 @@
+{
+  "name": "",
+  "output": "/Solar2D/App/kwikTheCat",
+  "ignored":[
+    {
+      "name": "Template21078_957-933.psd",
+      "alias": "Template21078_957-933"
+    },
+    {
+      "name": "icon.psd",
+      "alias": "icon"
+    },
+    {
+      "name": "splash.psd",
+      "alias": "splash"
+    }
+  ],
+  "pages": [
+    {
+      "name": "page1.psd",
+      "alias": "page1"
+    },
+    {
+      "name": "page10.psd",
+      "alias": "page10"
+    },
+    {
+      "name": "page11.psd",
+      "alias": "page11"
+    },
+    {
+      "name": "page12.psd",
+      "alias": "page12"
+    },
+    {
+      "name": "page2.psd",
+      "alias": "page2"
+    },
+    {
+      "name": "page3.psd",
+      "alias": "page3"
+    },
+    {
+      "name": "page4.psd",
+      "alias": "page4"
+    },
+    {
+      "name": "page5.psd",
+      "alias": "page5"
+    },
+    {
+      "name": "page6.psd",
+      "alias": "page6"
+    },
+    {
+      "name": "page7.psd",
+      "alias": "page7"
+    },
+    {
+      "name": "page8.psd",
+      "alias": "page8"
+    },
+    {
+      "name": "page9.psd",
+      "alias": "page9"
+    }
+  ]
+}

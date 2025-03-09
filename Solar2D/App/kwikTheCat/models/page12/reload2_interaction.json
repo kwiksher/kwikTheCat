@@ -1,0 +1,1 @@
+{"class":"button","properties":{"type":"tap","isActive":"true","target":"reload2","mask":"NIL","over":"NIL","btaps":1},"actions":{"onTap":"clear"},"layer":"reload2"}
