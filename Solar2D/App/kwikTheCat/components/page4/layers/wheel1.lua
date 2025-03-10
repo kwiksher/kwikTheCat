@@ -11,7 +11,7 @@ local layerProps = {
   kind      = pixel,
   name      = "wheel1",
   type      = "png",
-  x         = 692 + (361 -692)/2,
+  x         = 692 + 40 + (361 -692)/2,
   y         = 848 + (1142 - 848)/2,
   alpha     = 100/100,
   infinity = {
@@ -30,7 +30,7 @@ M.randXEnd    = nil
 M.randYStart  = nil
 M.randYEnd    = nil
 --
-M.xScale     = nil
+M.xScale     = 0.9
 M.yScale     = nil
 M.rotation   = nil
 --

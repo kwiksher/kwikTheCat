@@ -1,82 +1,67 @@
 local sceneName = ...
 --
 local model = {
-  --name = "page4",
-	components = {
-		layers = {
-			{
-				background4 = {
-					class = {  }
-				}
-			},
-			{
-				cloud2 = {
-					class = {  }
-				}
-			},
-			{
-				cloud1 = {
-					class = {  }
-				}
-			},
-			{
-				background3 = {
-					class = {  }
-				}
-			},
-			{
-				background2 = {
-					class = {  }
-				}
-			},
-			{
-				background1 = {
-					class = {  }
-				}
-			},
-			{
-				boo = {
-					class = {  }
-				}
-			},
-			{
-				car = {
-					class = {  }
-				}
-			},
-			{
-				wheel2 = {
-					class = {  }
-				}
-			},
-			{
-				wheel1 = {
-					class = {  }
-				}
-			},
-			{
-				text = {
-					class = {  }
-				}
-			},
-		},
-		audios = {
-			long = {  },
-			short = {   }
-		},
-		groups = {
+  --name = "",
+  components = {
+    layers = {
+      {
+        background4 = {
+        }
+      },
+      {
+        cloud2 = {
+          class={ "linear", }  }
+      },
+      {
+        cloud1 = {
+          class={ "linear", }  }
+      },
+      {
+        background3 = {
+        }
+      },
+      {
+        background2 = {
+          class={ "properties", }  }
+      },
+      {
+        background1 = {
+          class={ "properties", }  }
+      },
+      {
+        boo = {
+          class={ "pulse", }  }
+      },
+      {
+        car = {
+        }
+      },
+      {
+        wheel2 = {
+          class={ "rotation", }  }
+      },
+      {
+        wheel1 = {
+          class={ "rotation", }  }
+      },
+      {
+        text = {
+        }
+      },
     },
-		timers = {  },
-		variables = {  },
-		joints = {  },
-		page = {  }
-	},
-	commands = {  },
-	onInit = function(scene)
-		print("onInit")
-	end
+    audios = {
+      long={  }, short={   }
+    },
+    groups = {
+    },
+    timers = {  },
+    variables = {  },
+    joints    = {  },
+    page = {  }
+  },
+  commands = {  },
+  onInit = function(scene) print("onInit") end
 }
-
 local scene = require('controller.scene').new(sceneName, model)
 --
 return scene

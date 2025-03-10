@@ -11,7 +11,7 @@ local layerProps = {
   kind      = pixel,
   name      = "cloud1",
   type      = "png",
-  x         = 1857 + (1160 -1857)/2,
+  x         = 2400 + (1160 -1857)/2,
   y         = 305 + (622 - 305)/2,
   alpha     = 100/100,
   infinity = {
@@ -30,8 +30,8 @@ M.randXEnd    = nil
 M.randYStart  = nil
 M.randYEnd    = nil
 --
-M.xScale     = nil
-M.yScale     = nil
+M.xScale     = 0.5
+M.yScale     = 0.5
 M.rotation   = nil
 --
 M.layerAsBg     = nil
