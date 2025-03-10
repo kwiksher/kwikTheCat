@@ -12,7 +12,7 @@ local layerProps = {
   name      = "String_long",
   type      = "png",
   x         = 260 + (161 -289)/2,
-  y         = 280 + (1249 - 285)/2,
+  y         = 260 + (1249 - 285)/2,
   alpha     = 100/100,
   infinity = {
   },
