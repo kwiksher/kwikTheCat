@@ -1,5 +1,7 @@
 local kwik = require "plugin.kwik"
 
+display.setDefault( "background", 0.1, 0.1, 0.1 )
+
 system.setTapDelay(0.2)
 --
 if os.getenv("LOCAL_LUA_DEBUGGER_VSCODE") == "1" then
@@ -30,7 +32,7 @@ kwik.setCustomModule(
 kwik.bootstrap {
   name = "kwikTheCat",
   editor = true,
-  goPage = "page1",
+  goPage = "page5",
   language = "", -- empty string "" is for a single language project
   position = {x = 0, y = 0},
   gotoLastBook = true,

@@ -6,13 +6,13 @@ local infinity = require("components.kwik.layer_image_infinity")
 
 local layerProps = {
   blendMode = "normal",
-  height    =  1380 - 1033,
-  width     = 1789 - 1470 ,
+  height    =  1428 - 1081,
+  width     = 1589 - 1270 ,
   kind      = pixel,
   name      = "cat_tail",
   type      = "png",
-  x         = 1789 + (1470 -1789)/2,
-  y         = 1033 + (1380 - 1033)/2,
+  x         = 1589 + (1270 -1589)/2,
+  y         = 1081 + (1428 - 1081)/2,
   alpha     = 100/100,
   infinity = {
   },

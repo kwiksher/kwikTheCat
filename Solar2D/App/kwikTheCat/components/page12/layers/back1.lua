@@ -6,18 +6,18 @@ local infinity = require("components.kwik.layer_image_infinity")
 
 local layerProps = {
   blendMode = "normal",
-  height    =  1237 - 1166,
-  width     = 353 - 118 ,
+  height    =  1228 - 1160,
+  width     = 429 - 271 ,
   kind      = text,
   name      = "back1",
   type      = "png",
-  x         = 353 + (118 -353)/2,
-  y         = 1166 + (1237 - 1166)/2,
+  x         = 429 + (271 -429)/2,
+  y         = 1160 + (1228 - 1160)/2,
   alpha     = 100/100,
   infinity = {
   },
   -- text properties
-  contents =  "もどる",
+  contents =  "もどす",
   font =  "HiraKakuStd-W8",
   fontSize =  100,
   alignment =  "left",

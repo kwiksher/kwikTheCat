@@ -6,6 +6,7 @@ application = {
       -- width = 320,
       -- height = 480,
       scale = "adaptive", -- "letterBox",
+      -- scale = "letterBox",
       fps = 30,
       imageSuffix = {
          ["@2x"] = 1.5,

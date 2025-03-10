@@ -12,7 +12,7 @@ local layerProps = {
   name      = "bubble",
   type      = "png",
   x         = 1866 + (69 -1866)/2,
-  y         = 206 + (1067 - 206)/2,
+  y         = 606 + (1067 - 206)/2,
   alpha     = 0/100,
   infinity = {
   },

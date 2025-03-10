@@ -6,13 +6,13 @@ local infinity = require("components.kwik.layer_image_infinity")
 
 local layerProps = {
   blendMode = "normal",
-  height    =  1264 - 1130,
-  width     = 1669 - 1278 ,
+  height    =  1249 - 1155,
+  width     = 1564 - 1306 ,
   kind      = pixel,
   name      = "save2",
   type      = "png",
-  x         = 1669 + (1278 -1669)/2,
-  y         = 1130 + (1264 - 1130)/2,
+  x         = 1564 + (1306 -1564)/2,
+  y         = 1155 + (1249 - 1155)/2,
   alpha     = 100/100,
   infinity = {
   },

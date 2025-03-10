@@ -12,7 +12,7 @@ M.commands = {
   {page = "page1", name = "previousPage"}
 }
 
-M.ignored = table:mySet {"page1", "page12"}
+M.ignored = table:mySet {"page1"}
 
 local App = require("controller.Application")
 local isSimulator = (system.getInfo("environment") == "simulator")

@@ -18,7 +18,7 @@ local M = {
   audioProps = {
     filename    = "sync/iamkwik.mp3",
     channel      = 2,
-    volume      = 10,
+    volume      = 0,
   },
   textProps = {
     folder       = nil,
