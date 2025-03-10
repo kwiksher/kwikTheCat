@@ -78,13 +78,13 @@ M.from = nil
 -- }
 --
 M.to = {
-  x     = 440,
-  y     = nil,
+  -- x     = 440,
+  y     = 330,
   --
   alpha = 1,
   yScale   = 1,
   xScale   = 1,
-  rotation = 1,
+  -- rotation = 1,
 }
 -- more option
 -- action at the end of animation

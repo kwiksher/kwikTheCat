@@ -78,13 +78,13 @@ M.from = nil
 -- }
 --
 M.to = {
-  x     = 420,
-  y     = nil,
+  x     = nil,
+  y     = 300,
   --
   alpha = 1,
   yScale   = 1,
   xScale   = 1,
-  rotation = 3,
+  -- rotation = 10,
 }
 -- more option
 -- action at the end of animation
@@ -111,9 +111,9 @@ function M:create(UI)
   -- Set anchor point to center for proper rotation
   -- --
   self:initAnimation(UI, self.obj, onEndHandler)
-  -- self.obj.anchorX = 0.5
-  -- self.obj.anchorY = 0.5
-  -- -- self.obj.y = self.obj.y + self.obj.height * 0.5
+  self.obj.anchorX = 0.5
+  self.obj.anchorY = 0.5
+  -- self.obj.y = self.obj.y + self.obj.height * 0.5
   -- Optionally adjust position if needed:
   self.animation = self:buildAnim(UI)
   UI.animations[self.name.."_"..self.class] = self.animation
