@@ -8,15 +8,15 @@ local M = {
   class = "sync",
   folder = "audios/sync",
   properties = {
-    target       = "text1",
+    target       = "text2",
     autoPlay     = true,
-    delay        = 1000,
+    delay        = 3000,
     fadeDuration = 1000,
     speakerIcon = true,
     wordTouch   = true,
   },
   audioProps = {
-    filename    = "sync/iamcat.mp3",
+    filename    = "sync/iamkwik.mp3",
     channel      = 2,
     volume      = 10,
   },
@@ -29,7 +29,7 @@ local M = {
     language    = "",
     padding     = 10/4,
     readDir     = "leftToRight",
-    sentenceDir = "sync/iamcat", -- wordTouch
+    sentenceDir = "sync/iamkwik", -- wordTouch
   },
   actions = {onComplete = "eventOne"},
 
@@ -37,7 +37,7 @@ local M = {
 
 M.line = {
   {
-    name= "ぼく",
+    name= "なまえは",
     out= 0.500,
     start= 0.000,
     file= "a.mp3",
@@ -45,7 +45,7 @@ M.line = {
     dur= 1000
   },
   {
-    name= "は",
+    name= "",
     out= 1.000,
     start= 0.500,
     file= "b.mp3",
@@ -53,7 +53,7 @@ M.line = {
     dur= 0
   },
   {
-    name= "ねこ",
+    name= "くいっく",
     out= 1.500,
     start= 1.000,
     file= "c.mp3",

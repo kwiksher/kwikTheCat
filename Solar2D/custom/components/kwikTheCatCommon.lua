@@ -33,19 +33,19 @@ function M:init(UI)
       end
       if name == "fish" then
         if isSimulator then
-          mod.mX = display.contentCenterX + 480 / 2
-          mod.mY = display.contentCenterY + 320 / 2
+          mod.mX = display.contentCenterX + 480 / 2 - mod.imageWidth/2
+          mod.mY = display.contentCenterY + 320 / 2 - mod.imageHeight/2
         else
-          mod.mX = display.contentCenterX + display.actualContentWidth / 2
-          mod.mY = display.contentCenterY + display.actualContentHeight / 2
+          mod.mX = display.contentCenterX + display.actualContentWidth / 2 - mod.imageWidth/2
+          mod.mY = display.contentCenterY + display.actualContentHeight / 2 - mod.imageHeight/2
         end
       elseif name == "starfish" then
         if isSimulator then
-          mod.mX = display.contentCenterX - 480 / 2
-          mod.mY = display.contentCenterY + 320 / 2
+          mod.mX = display.contentCenterX - 480 / 2 +  mod.imageWidth/2
+          mod.mY = display.contentCenterY + 320 / 2 - mod.imageHeight/2
         else
-          mod.mX = display.contentCenterX - display.actualContentWidth / 2
-          mod.mY = display.contentCenterY + display.actualContentHeight / 2
+          mod.mX = display.contentCenterX - display.actualContentWidth / 2 + mod.imageWidth/2
+          mod.mY = display.contentCenterY + display.actualContentHeight / 2 - mod.imageHeight/2
         end
       end
     end

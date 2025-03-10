@@ -1,6 +1,6 @@
 local sceneName = ...
 --
-local scene = require('controller.scene').new(sceneName, {
+local model = {
   --name = "",
   components = {
     layers = {
@@ -30,7 +30,7 @@ local scene = require('controller.scene').new(sceneName, {
       },
       {
         cat_paw1 = {
-        }
+          class={ "rotation", }  }
       },
       {
         cat_ribbon2 = {
@@ -54,15 +54,15 @@ local scene = require('controller.scene').new(sceneName, {
       },
       {
         baloon = {
-        }
+          class={ "linear", }  }
       },
       {
         fish = {
-          class={ "drag", }  }
+          class={ "drag", "linear"}  }
       },
       {
         ball = {
-          class={ "button", }  }
+          class={ "button","linear", }  }
       },
       {
         ball_over = {
@@ -70,7 +70,7 @@ local scene = require('controller.scene').new(sceneName, {
       },
       {
         text = {
-        }
+          class={ "linear", }  }
       },
     },
     audios = {
@@ -84,6 +84,7 @@ local scene = require('controller.scene').new(sceneName, {
   },
   commands = {   "eventOne",   "eventTwo",   "eventThree",  },
   onInit = function(scene) print("onInit") end
-})
+}
+local scene = require('controller.scene').new(sceneName, model)
 --
 return scene

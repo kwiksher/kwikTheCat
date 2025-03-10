@@ -33,7 +33,7 @@ kwik.bootstrap {
   goPage = "page1",
   language = "", -- empty string "" is for a single language project
   position = {x = 0, y = 0},
-  gotoLastBook = false,
+  gotoLastBook = true,
   unitTest = false,
   httpServer = false,
   showPageName = true

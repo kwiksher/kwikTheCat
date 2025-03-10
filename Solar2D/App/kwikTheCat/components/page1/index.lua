@@ -18,7 +18,7 @@ local model = {
       },
       {
         cat_face1 = {
-        }
+          class={ "blink", }  }
       },
       {
         title_base = {
@@ -49,6 +49,10 @@ local model = {
       long={  }, short={   }
     },
     groups = {
+      {
+        groupCat = {
+          class={ "button", }  }
+      },
     },
     timers = {  },
     variables = {  },
