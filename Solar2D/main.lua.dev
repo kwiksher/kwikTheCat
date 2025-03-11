@@ -12,7 +12,7 @@ end
 -- kwik.restore()
 -- kwik.autoUpdate()
 
--- kwik.useGradientBackground()
+kwik.useGradientBackground()
 
 kwik.setCustomModule(
   "custom",
@@ -31,14 +31,14 @@ kwik.setCustomModule(
 
 kwik.bootstrap {
   name = "kwikTheCat",
-  editor = false,
-  goPage = "page1",
+  editor = true,
+  goPage = "page5",
   language = "", -- empty string "" is for a single language project
   position = {x = 0, y = 0},
-  gotoLastBook = false,
+  gotoLastBook = true,
   unitTest = false,
   httpServer = false,
-  showPageName = false
+  showPageName = true
 } -- scenes.index
 
 -- for product release
