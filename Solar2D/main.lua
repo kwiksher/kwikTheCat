@@ -1,6 +1,6 @@
 local kwik = require "plugin.kwik"
 
-display.setDefault( "background", 0.1, 0.1, 0.1 )
+display.setDefault( "background", 0.2, 0.2, 0.2, 0.1 )
 
 system.setTapDelay(0.2)
 --

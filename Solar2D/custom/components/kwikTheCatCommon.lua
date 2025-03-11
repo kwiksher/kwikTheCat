@@ -15,7 +15,7 @@ M.commands = {
 M.ignored = table:mySet {"page1"}
 
 local App = require("controller.Application")
-local isSimulator = (system.getInfo("environment") == "simulator")
+local isSimulator = false -- (system.getInfo("environment") == "simulator")
 
 M.appDir = "App.kwikTheCat."
 M.modules = {}
@@ -36,7 +36,7 @@ function M:init(UI)
           mod.mX = display.contentCenterX + 480 / 2 - mod.imageWidth/2
           mod.mY = display.contentCenterY + 320 / 2 - mod.imageHeight/2
         else
-          mod.mX = display.contentCenterX + display.actualContentWidth / 2 - mod.imageWidth/2
+          mod.mX = display.contentCenterX + display.actualContentWidth / 2 - mod.imageWidth/2 -16
           mod.mY = display.contentCenterY + display.actualContentHeight / 2 - mod.imageHeight/2
         end
       elseif name == "starfish" then
@@ -44,7 +44,7 @@ function M:init(UI)
           mod.mX = display.contentCenterX - 480 / 2 +  mod.imageWidth/2
           mod.mY = display.contentCenterY + 320 / 2 - mod.imageHeight/2
         else
-          mod.mX = display.contentCenterX - display.actualContentWidth / 2 + mod.imageWidth/2
+          mod.mX = display.contentCenterX - display.actualContentWidth / 2 + mod.imageWidth/2 + 16
           mod.mY = display.contentCenterY + display.actualContentHeight / 2 - mod.imageHeight/2
         end
       end
