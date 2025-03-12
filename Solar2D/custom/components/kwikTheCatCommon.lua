@@ -93,7 +93,7 @@ function M:didHide(UI)
   end
 end
 --
-function M:destroy()
+function M:destroy(UI)
   if not self.ignored[tostring(UI.page)] then
     for i = 1, #self.components do
       self.modules[i]:destroy(UI)
