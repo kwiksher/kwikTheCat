@@ -35,7 +35,7 @@ M.properties = {
   target = "Wave3",
   autoPlay = true,
   delay    = 0,
-  duration = 2000,
+  duration = 3000,
   loop     = -1,
   reverse  = true,
   resetAtEnd  = false,
@@ -78,13 +78,13 @@ M.from = nil
 -- }
 --
 M.to = {
-  x     = 420,
+  -- x     = 380,
   y     = nil,
   --
   alpha = 1,
-  yScale   = 1,
+  yScale   = 1.2,
   xScale   = 1,
-  rotation = 3,
+  -- rotation = 3,
 }
 -- more option
 -- action at the end of animation

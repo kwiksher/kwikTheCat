@@ -115,7 +115,7 @@ end
 --
 function M:didShow(UI)
   local sceneGroup = UI.sceneGroup
-  if self.properties.autoPlay then
+  if self.animation and self.properties.autoPlay then
     if self.animation.from then
       --self.animation.from:toBeginning()
       -- transition.to(obj, {x = obj.x + 100})
@@ -130,11 +130,11 @@ function M:didShow(UI)
 end
 --
 function M:didHide(UI)
-  if self.animation.from then
+  if self.animation and self.animation.from then
     self.animation.from:pause()
     -- self.animation.from:toBeginning()
   end
-  if self.animation.to then
+  if self.animation and  self.animation.to then
     self.animation.to:pause()
     -- self.animation.to:toBeginning()
   end

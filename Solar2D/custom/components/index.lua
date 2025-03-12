@@ -16,7 +16,7 @@ local root = parent:sub(1, parent:len()-1):match("(.-)[^%.]+$")
 function M:showSceneCollection()
   local composer = require("composer")
   local name = "sceneCollection"
-  local collection = require("plugin.kwik.controller.sceneCollection").new()
+  local collection = require("kwik.controller.sceneCollection").new()
   composer.gotoScene( "sceneCollection",  {effect = "flip", time = 1000})
 end
 --

@@ -1,6 +1,6 @@
 local M = {}
-local navigation = require("plugin.kwik.extlib.kNavi")
-local shapes     = require("plugin.kwik.extlib.shapes")
+local navigation = require("kwik.extlib.kNavi")
+local shapes     = require("kwik.extlib.shapes")
 
 local navigationProps = { bookFree = {
     backColor       = {255, 255, 255},

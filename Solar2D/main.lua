@@ -1,6 +1,9 @@
-local kwik = require "plugin.kwik"
+print("hello")
 
-display.setDefault( "background", 0.1, 0.1, 0.1 )
+---[[
+local kwik = require "kwik"
+
+display.setDefault( "background", 0.2, 0.2, 0.2, 0.1 )
 
 system.setTapDelay(0.2)
 --
@@ -43,3 +46,5 @@ kwik.bootstrap {
 
 -- for product release
 -- require("controller.index").bootstrap({name="interaction", edting = false, goPage = "button", position = {x=0, y=0}, common = common}) -- scenes.index
+
+--]]
