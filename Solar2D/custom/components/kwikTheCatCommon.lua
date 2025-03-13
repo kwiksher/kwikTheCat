@@ -13,6 +13,7 @@ M.commands = {
 }
 
 M.ignored = table:mySet {"page1"}
+M.autoTimerSec = 8000
 
 local App = require("controller.Application")
 local isSimulator = false -- (system.getInfo("environment") == "simulator")
@@ -63,7 +64,7 @@ function M:init(UI)
       table.insert(commands, eventName)
     end
     UI.scene.customCommands = commands
-    print("$$$$$$", #UI.scene.customCommands)
+    -- print("$$$$$$", #UI.scene.customCommands)
   end
 end
 --
@@ -83,6 +84,14 @@ function M:didShow(UI)
       self.modules[i].obj:toFront()
     end
   end
+
+  if UI.page ~="page1" and UI.page ~="page6" and UI.page~="page12" then
+    self.autoTimer = timer.performWithDelay(self.autoTimerSec, function()
+      UI.scene:dispatchEvent({name="nextPage", event = event})
+      end
+     )
+  end
+
 end
 --
 function M:didHide(UI)
@@ -91,6 +100,11 @@ function M:didHide(UI)
       self.modules[i]:didHide(UI)
     end
   end
+
+  if UI.page ~="page1" and UI.page ~="page6" and UI.page~="page12" then
+    timer.cancel(self.autoTimer)
+  end
+
 end
 --
 function M:destroy(UI)

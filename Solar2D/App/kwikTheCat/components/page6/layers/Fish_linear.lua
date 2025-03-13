@@ -124,7 +124,7 @@ function M:didShow(UI)
       self.animation.from:play()
       -- self.animation.from:pause()
     else
-      --self.animation.to:toBeginning()
+      self.animation.to:toBeginning()
       self.animation.to:play()
     end
   end
