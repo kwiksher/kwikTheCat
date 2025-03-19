@@ -15,7 +15,7 @@ M.commands = {
 M.ignored = table:mySet {"page1"}
 M.autoTimerSec = 8000
 
-local App = require("controller.Application")
+-- local App = require("controller.Application")
 local isSimulator = false -- (system.getInfo("environment") == "simulator")
 
 M.appDir = "App.kwikTheCat."
@@ -87,7 +87,7 @@ function M:didShow(UI)
 
   if UI.page ~="page1" and UI.page ~="page6" and UI.page~="page12" then
     self.autoTimer = timer.performWithDelay(self.autoTimerSec, function()
-      UI.scene:dispatchEvent({name="nextPage", event = event})
+      -- UI.scene:dispatchEvent({name="nextPage", event = event})
       end
      )
   end

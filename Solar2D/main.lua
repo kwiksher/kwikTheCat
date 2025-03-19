@@ -1,7 +1,7 @@
 print("hello")
 
 ---[[
-local kwik = require "kwik"
+local kwik = require "plugin.kwik"
 
 display.setDefault( "background", 0.2, 0.2, 0.2, 0.1 )
 
@@ -35,7 +35,7 @@ kwik.setCustomModule(
 kwik.bootstrap {
   name = "kwikTheCat",
   editor = false,
-  goPage = "page1",
+  gotoPage = "page6",
   language = "", -- empty string "" is for a single language project
   position = {x = 0, y = 0},
   gotoLastBook = false,

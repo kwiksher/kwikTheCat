@@ -3,9 +3,9 @@ settings = {
         ["plugin.zip"] = {
             publisherId = "com.coronalabs",
         },
-       -- ["plugin.kwik"] = {
-       --      publisherId = "com.kwiksher",
-       -- },
+       ["plugin.kwik"] = {
+            publisherId = "com.kwiksher",
+       },
        -- Google in app billing v2
        -- ["plugin.google.iap.billing.v2"] = {
        --     -- required
@@ -22,9 +22,9 @@ settings = {
             --publisherId = "com.coronalabs",
             --supportedPlatforms = { ["android-kindle"]=true }
        --},
-       -- ["plugin.tinyfiledialogs"]={
-       --      publisherId = "com.xibalbastudios"
-       -- },
+       ["plugin.tinyfiledialogs"]={
+             publisherId = "com.xibalbastudios"
+       },
        ["plugin.nanosvg"] =
         {
             publisherId = "com.coronalabs"

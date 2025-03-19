@@ -34,7 +34,7 @@ local model = {
       },
       {
         cat = {
-          class={ "linear", }  }
+          class={ "linear"  }  }
       },
       {
         text2 = {class= {"sync"}

@@ -79,7 +79,7 @@ M.from = nil
 --
 M.to = {
   -- x     = 400,
-  y     = 320,
+  y     = 400,
   --
   alpha = 1,
   yScale   = 1,
