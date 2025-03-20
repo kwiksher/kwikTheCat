@@ -34,8 +34,8 @@ kwik.setCustomModule(
 
 kwik.bootstrap {
   name = "kwikTheCat",
-  editor = false,
-  gotoPage = "page6",
+  editor = true,
+  gotoPage = "page1",
   language = "", -- empty string "" is for a single language project
   position = {x = 0, y = 0},
   gotoLastBook = false,

@@ -78,7 +78,7 @@ M.from = nil
 -- }
 --
 M.to = {
-  x     = 400,
+  x     = 400 -240,
   y     = nil,
   --
   alpha = 1,
