@@ -3,9 +3,9 @@ settings = {
         ["plugin.zip"] = {
             publisherId = "com.coronalabs",
         },
-       ["plugin.kwik"] = {
-            publisherId = "com.kwiksher",
-       },
+       --["plugin.kwik"] = {
+       --     publisherId = "com.kwiksher",
+       --},
        -- Google in app billing v2
        -- ["plugin.google.iap.billing.v2"] = {
        --     -- required
@@ -138,8 +138,7 @@ settings = {
     },
     excludeFiles = {
         -- Exclude all files at all paths which end with "secret.txt"
-        all = {  "Icon*.png", "Images.xcassets", "Icon*.ico", "Icon*.icns", "*.vbs", "*.bat", "*.command", "copy_projects",
-                "kwik/template" },
+        all = {  "Icon*.png", "Images.xcassets", "Icon*.ico", "Icon*.icns", "*.vbs", "*.bat", "*.command", "copy_projects"},
         android = { "LaunchScreen.storyboardc" },
         win32 = { "LaunchScreen.storyboardc" },
     },
