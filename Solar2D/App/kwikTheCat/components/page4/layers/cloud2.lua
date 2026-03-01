@@ -30,8 +30,8 @@ M.randXEnd    = nil
 M.randYStart  = nil
 M.randYEnd    = nil
 --
-M.xScale     = 0.6
-M.yScale     = 0.4
+M.xScale     = nil
+M.yScale     = nil
 M.rotation   = nil
 --
 M.layerAsBg     = nil

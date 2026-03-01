@@ -1,1 +1,1 @@
-{"components":{"layers":[{"name":"table"},{"name":"dish"},{"name":"fishbone"},{"name":"Fish","class1":["switch"]},{"name":"fork","class1":["linear"]},{"name":"knife","class1":["linear"]},{"name":"effect"},{"name":"text2"},{"name":"text1"}],"groups":[],"audios":{"long":[],"short":[]},"variables":[],"timers":[],"page":[],"joints":[]},"commands":[],"page":"page9","pageNum":9}
+[{"table":[]},{"dish":[]},{"fishbone":[]},{"fish":[]},{"fork":[]},{"knife":[]},{"effect":[]},{"text2":[]},{"text1":[]}]

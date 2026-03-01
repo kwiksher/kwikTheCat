@@ -17,7 +17,7 @@ local layerProps = {
   infinity = {
   },
   -- text properties
-  contents =  "いただきます",
+  contents =  "%E3%81%84%E3%81%9F%E3%81%A0%E3%81%8D%E3%81%BE%E3%81%99",
   font =  "HiraKakuStd-W8",
   fontSize =  100,
   alignment =  "left",

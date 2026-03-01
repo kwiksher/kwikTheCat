@@ -17,11 +17,7 @@ function ActionCommand:new()
     -- printKeys(event.target)
     -- local conditions = require("App." .. UI.book..".common.conditions")
     -- local expressions = require("App." .. UI.book.."common.expressions")
-    if UI.page == "page5" then
-      AC.Page:gotoPage("NEXT", "slideUp", 0, 3);
-    else
-      AC.Page:gotoPage("NEXT", "slideLeft", 0, 3);
-    end
+    AC.Page:gotoPage("NEXT", "fromRight", 0, 0);
   end
   return setmetatable( command, {__index=AC})
 end
@@ -29,7 +25,5 @@ end
 ActionCommand.model = [[
 {"name":"nextPage","actions":[{"command":"page.gotoPage","params":{"pageName":"NEXT","duration":0,"delay":0,"effect":"fromRight"}}]}
 ]]
-
-print("@@@ new command ")
 --
 return ActionCommand

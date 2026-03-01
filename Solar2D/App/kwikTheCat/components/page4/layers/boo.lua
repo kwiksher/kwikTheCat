@@ -11,7 +11,7 @@ local layerProps = {
   kind      = pixel,
   name      = "boo",
   type      = "png",
-  x         = 200 + (1629 -1840)/2,
+  x         = 1840 + (1629 -1840)/2,
   y         = 775 + (957 - 775)/2,
   alpha     = 100/100,
   infinity = {
@@ -30,7 +30,7 @@ M.randXEnd    = nil
 M.randYStart  = nil
 M.randYEnd    = nil
 --
-M.xScale     = -1
+M.xScale     = nil
 M.yScale     = nil
 M.rotation   = nil
 --

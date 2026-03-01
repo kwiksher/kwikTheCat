@@ -22,6 +22,7 @@ local layerProps = {
   fontSize =  nil,
   alignment =  "",
   orientation = "",
+  psdPage     = "page1"
 }
 
 M.align       = ""
@@ -47,12 +48,16 @@ function M:init(UI)
 end
 --
 function M:create(UI)
+  print("create cat_face1")
 	if not self.isSharedAsset then
     self.imagePath = UI.page ..self.imageName
   end
   local obj = self:createImage(UI)
   UI.layers[#UI.layers] = obj
   self.obj = obj
+
+  for k, v in pairs(UI.sceneGroup) do print(k ,v) end
+
 
   if self.infinity and self.infinity.enabled then
     infinity.createInfinityImage(UI, self.obj, self.infinity)

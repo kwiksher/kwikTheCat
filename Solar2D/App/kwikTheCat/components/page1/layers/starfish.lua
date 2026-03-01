@@ -23,6 +23,7 @@ local layerProps = {
   alignment =  "",
   orientation = "",
 }
+M.imagePath   = "page1/starfish.png"
 M.align       = ""
 M.randXStart  = nil
 M.randXEnd    = nil
@@ -34,11 +35,9 @@ M.yScale     = nil
 M.rotation   = nil
 --
 M.layerAsBg     = nil
+M.isSharedAsset = nil
 --
 M:setProps(layerProps)
---
-M.isSharedAsset = true
-M.imagePath   = "page1/starfish.png"
 --
 function M:init(UI)
   --local sceneGroup = UI.scene.view

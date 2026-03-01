@@ -18,8 +18,10 @@ function ActionCommand:new()
 
     -- local conditions = require("App." .. UI.book..".common.conditions")
     -- local expressions = require("App." .. UI.book.."common.expressions")
-    print("kwik", "screenshot", "Taling Screen Capture and Saving to Library")
-    AC.Screenshot:take("Screenshot", "Screen Capture Saved to Library",  true, {} )
+
+    AC.Screenshot:take("Screenshot", "Screen Capture Saved to Library",  true,
+      {  }
+    )
   end
   return setmetatable( command, {__index=AC})
 end

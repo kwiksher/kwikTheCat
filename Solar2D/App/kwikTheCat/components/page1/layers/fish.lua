@@ -24,6 +24,7 @@ local layerProps = {
   orientation = "",
 }
 
+M.imagePath   = "page1/fish.png"
 M.align       = ""
 M.randXStart  = nil
 M.randXEnd    = nil
@@ -35,12 +36,9 @@ M.yScale     = nil
 M.rotation   = nil
 --
 M.layerAsBg     = nil
+M.isSharedAsset = true
 --
 M:setProps(layerProps)
---
-M.isSharedAsset = true
-M.imagePath   = "page1/fish.png"
-
 --
 function M:init(UI)
   --local sceneGroup = UI.scene.view
@@ -53,7 +51,6 @@ function M:create(UI)
 	if not self.isSharedAsset then
     self.imagePath = UI.page ..self.imageName
   end
-  print(self.imagePath)
   local obj = self:createImage(UI)
   UI.layers[#UI.layers] = obj
   self.obj = obj

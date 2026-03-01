@@ -13,7 +13,7 @@ local layerProps = {
   type      = "png",
   x         = 1639 + (315 -1639)/2,
   y         = 848 + (1175 - 848)/2,
-  alpha     = 100/100,
+  alpha     = 0/100,
   infinity = {
   },
   -- text properties

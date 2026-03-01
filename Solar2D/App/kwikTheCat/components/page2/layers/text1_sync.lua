@@ -1,35 +1,34 @@
-
 local name = ...
 local parent,root = newModule(name)
 
 local M = {
   name = "",
-  layer = "text2",
+  layer = "text1",
   class = "sync",
   folder = "audios/sync",
   properties = {
     target       = "text1",
     autoPlay     = true,
-    delay        = 1000,
+    delay        = NIL,
     fadeDuration = 1000,
     speakerIcon = true,
     wordTouch   = true,
   },
   audioProps = {
-    filename    = "sync/iamcat.mp3",
+    filename    = "sync/alphabet.mp3",
     channel      = 2,
-    volume      = 0,
+    volume      = 10,
   },
   textProps = {
     folder       = nil,
     font         = "",
-    fontColor   = { 0,0,0 },
+    fontColor   = { 0,0,1 },
     fontColorHi = { 1,1,0 },
-    fontSize    = 24,
+    fontSize    = 36,
     language    = "",
     padding     = 10/4,
     readDir     = "leftToRight",
-    sentenceDir = "sync/iamcat", -- wordTouch
+    sentenceDir = "sync/alphabet", -- wordTouch
   },
   actions = {onComplete = "eventOne"},
 
@@ -37,7 +36,7 @@ local M = {
 
 M.line = {
   {
-    name= "ぼく",
+    name= "A",
     out= 0.500,
     start= 0.000,
     file= "a.mp3",
@@ -45,7 +44,7 @@ M.line = {
     dur= 1000
   },
   {
-    name= "は",
+    name= "B",
     out= 1.000,
     start= 0.500,
     file= "b.mp3",
@@ -53,7 +52,7 @@ M.line = {
     dur= 0
   },
   {
-    name= "ねこ",
+    name= "C",
     out= 1.500,
     start= 1.000,
     file= "c.mp3",

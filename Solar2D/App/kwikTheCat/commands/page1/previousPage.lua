@@ -17,11 +17,7 @@ function ActionCommand:new()
     -- printKeys(event.target)
     -- local conditions = require("App." .. UI.book..".common.conditions")
     -- local expressions = require("App." .. UI.book.."common.expressions")
-    if UI.page == "page6" then
-      AC.Page:gotoPage("PREVIOUS", "slideDown", 0, 3);
-    else
-      AC.Page:gotoPage("PREVIOUS", "slideRight", 0, 3);
-    end
+    AC.Page:gotoPage("PREVIOUS", "fromLeft", 0, 0);
   end
   return setmetatable( command, {__index=AC})
 end
