@@ -51,7 +51,7 @@ settings = {
     --     }
     },
     android  = {
-       minSdkVersion = "21",
+      minSdkVersion = "21",
       -- https://docs.coronalabs.com/guide/distribution/buildSettings/index.html
       -- usesExpansionFile = true,
       --

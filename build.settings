@@ -1,0 +1,15 @@
+-- ...existing code...
+
+plugins = {
+    -- ...existing code...
+
+    -- Remove plugin_movie reference if it exists
+    -- ["plugin.movie"] = { publisherId = "com.kwiksher" },
+
+    -- Add graphics extension plugin
+    ["plugin.gfxe"] = { publisherId = "com.kwiksher" },
+
+    -- ...existing code...
+}
+
+-- ...existing code...
