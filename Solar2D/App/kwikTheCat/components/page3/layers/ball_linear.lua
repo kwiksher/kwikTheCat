@@ -78,12 +78,12 @@ M.from = nil
 -- }
 --
 M.to = {
-  x     = 263,
-  y     = 411,
+  x     = 263-100,
+  y     = 411-200,
   --
   alpha = 1,
-  yScale   = 1,
-  xScale   = 1,
+  yScale   = 2,
+  xScale   = 2,
   rotation = 360,
 }
 -- more option

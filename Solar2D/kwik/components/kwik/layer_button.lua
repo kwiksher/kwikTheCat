@@ -126,16 +126,16 @@ function M:addEventListener(UI)
         -- print(layerName, obj)
         if obj.tap == nil then
           function obj:tap(event)
-            print("tap")
+            -- print("tap")
             event.UI = UI
             if props.enabled or props.enabled == nil then
               if props.btaps and event.numTaps then
                 if event.numTaps == props.btaps then
-                  -- print("tap", eventName)
+                 -- print("tap", eventName)
                     UI.scene:dispatchEvent({name=eventName, event = event})
                 end
               else
-                -- print("###", eventName)
+                 --print("###", eventName)
                     UI.scene:dispatchEvent({name=eventName, event = event})
               end
             end

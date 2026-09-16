@@ -121,7 +121,7 @@ local model = {
 				}
 			},
 			{
-				starfish = {
+				starfishr = {
 					class = {
 						"button",
 					}

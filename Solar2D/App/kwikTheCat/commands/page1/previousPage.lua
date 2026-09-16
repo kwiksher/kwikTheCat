@@ -14,7 +14,7 @@ function ActionCommand:new()
     local obj        = event.target
     --
     -- local alert = native.showAlert("Alert", "Hello", { "OK" } )
-    -- printKeys(event.target)
+    printKeys(event.target)
     -- local conditions = require("App." .. UI.book..".common.conditions")
     -- local expressions = require("App." .. UI.book.."common.expressions")
     if UI.page == "page6" then

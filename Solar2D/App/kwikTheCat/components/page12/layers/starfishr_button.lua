@@ -1,12 +1,12 @@
 local name = ...
 local parent,root = newModule(name)
 
-local layerProps = require(parent.."starfish")
+local layerProps = require(parent.."starfishr")
 
 local M = {
   name ="starfish_button",
   properties = {
-    target = "starfish",
+    target = "starfishr",
     eventType = "tap", -- tap, touch
     over = "",
     btaps = 1,
